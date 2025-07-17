@@ -1,0 +1,32 @@
+.sidebar {
+  background: var(--bg-secondary);
+  padding: 1rem 0.5rem;
+  width: 220px;
+  min-width: 160px;
+  border-right: 1px solid var(--border-color);
+  min-height: 80vh;
+  transition: background 0.2s;
+  position: sticky;
+  top: 60px; /* under header */
+}
+.sidebar-filters h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: var(--secondary);
+}
+.filter-btn {
+  background: var(--secondary);
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  margin: 0.3rem 0;
+  padding: 8px 16px;
+  cursor: pointer;
+  width: 100%;
+}
+@media (max-width: 900px) {
+  .sidebar { width: 120px; font-size: 0.95rem;}
+}
+@media (max-width: 600px) {
+  .sidebar { display: none; }
+}

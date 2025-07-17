@@ -1,0 +1,11 @@
+.timeline {
+  margin-top: 2rem;
+}
+.timeline-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.45rem;
+}
+@media (max-width: 700px) {
+  .timeline { margin-top: 0.5rem; }
+}

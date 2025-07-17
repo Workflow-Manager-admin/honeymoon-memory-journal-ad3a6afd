@@ -1,0 +1,13 @@
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 2.2rem;
+}
+.gallery-item img, .gallery-item video {
+  max-width: 160px;
+  max-height: 120px;
+  border-radius: 6px;
+  object-fit: cover;
+  background: #eaeaea;
+}

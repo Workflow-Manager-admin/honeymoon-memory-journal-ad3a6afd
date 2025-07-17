@@ -1,12 +1,15 @@
 /* CSS Variables for Theme Management */
 :root {
-  /* Light theme colors */
+  /* Light theme colors & custom brand */
+  --primary: #ffb6c1;
+  --secondary: #ff69b4;
+  --accent: #ffdf00;
   --bg-primary: #ffffff;
   --bg-secondary: #f8f9fa;
   --text-primary: #282c34;
-  --text-secondary: #61dafb;
+  --text-secondary: #ff69b4;
   --border-color: #e9ecef;
-  --button-bg: #007bff;
+  --button-bg: var(--primary);
   --button-text: #ffffff;
 }
 
@@ -38,6 +41,18 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.app-layout {
+  display: flex;
+  flex-direction: row;
+  min-height: 92vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1.5rem 2.5rem;
+  background: var(--bg-primary);
 }
 
 .App-header {
