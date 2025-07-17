@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/honeymoon-memory-journal-ad3a6afd/honeymoon_journal_frontend"
+}
