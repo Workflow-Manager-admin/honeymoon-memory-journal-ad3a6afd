@@ -12,7 +12,10 @@
 .sidebar-filters h2 {
   margin-top: 0;
   font-size: 1.1rem;
-  color: var(--secondary);
+  color: rgba(0, 0, 0, 1);
+  font-family: -apple-system, system-ui, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: bold;
+  text-align: center;
 }
 .filter-btn {
   background: var(--secondary);

@@ -7,7 +7,7 @@ function Header({ onThemeToggle, theme, user, onLogout }) {
   return (
     <header className="header">
       <div className="logo-area">
-        <span className="logo-heart" aria-label="Logo">💖</span>
+        <span className="logo-heart" aria-label="Logo" style={{ fontFamily: '-apple-system, system-ui, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif' }}>💍</span>
         <span className="honeymoon-title">Honeymoon Journal</span>
       </div>
       <nav className="nav">
@@ -22,8 +22,8 @@ function Header({ onThemeToggle, theme, user, onLogout }) {
         )}
       </nav>
       <div className="actions">
-        <button className="theme-toggle" onClick={onThemeToggle} aria-label="Switch theme">
-          {theme === "light" ? "🌙" : "☀️"}
+        <button className="theme-toggle" onClick={onThemeToggle} aria-label="Switch theme" style={{ fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}>
+          {theme === "light" ? "🌚" : "☀️"}
         </button>
         {user && (
           <>
